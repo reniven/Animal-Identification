@@ -1,0 +1,234 @@
+2022-01-20 21:58:51.625067: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-20 21:59:45.447555: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-01-20 21:59:45.449615: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-01-20 21:59:45.457786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:60:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-01-20 21:59:45.458895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:da:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-01-20 21:59:45.458933: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-20 21:59:46.651453: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-01-20 21:59:46.651619: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-01-20 21:59:47.022024: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-01-20 21:59:47.196765: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-01-20 21:59:47.904966: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-01-20 21:59:48.012674: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-01-20 21:59:49.161382: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-01-20 21:59:49.165694: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-01-20 21:59:49.180141: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-20 21:59:49.390998: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:60:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-01-20 21:59:49.391950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:da:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 1.03TiB/s
+2022-01-20 21:59:49.392003: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-20 21:59:49.392033: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-01-20 21:59:49.392048: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-01-20 21:59:49.392062: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-01-20 21:59:49.392076: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-01-20 21:59:49.392091: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-01-20 21:59:49.392105: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-01-20 21:59:49.392146: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-01-20 21:59:49.395381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-01-20 21:59:49.396277: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-20 21:59:56.569280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-01-20 21:59:56.569364: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 
+2022-01-20 21:59:56.569991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y 
+2022-01-20 21:59:56.570004: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N 
+2022-01-20 21:59:56.577635: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30132 MB memory) -> physical GPU (device: 0, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:60:00.0, compute capability: 7.0)
+2022-01-20 21:59:56.604496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 30132 MB memory) -> physical GPU (device: 1, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:da:00.0, compute capability: 7.0)
+2022-01-20 21:59:56.604714: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-01-20 22:10:10.013375: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:656] In AUTO-mode, and switching to DATA-based sharding, instead of FILE-based sharding as we cannot find appropriate reader dataset op(s) to shard. Error: Did not find a shardable source, walked to a node which is not a dataset: name: "FlatMapDataset/_9"
+op: "FlatMapDataset"
+input: "PrefetchDataset/_8"
+attr {
+  key: "Targuments"
+  value {
+    list {
+    }
+  }
+}
+attr {
+  key: "f"
+  value {
+    func {
+      name: "__inference_Dataset_flat_map_slice_batch_indices_2262253"
+    }
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: -1
+        }
+      }
+    }
+  }
+}
+attr {
+  key: "output_types"
+  value {
+    list {
+      type: DT_INT64
+    }
+  }
+}
+. Consider either turning off auto-sharding or switching the auto_shard_policy to DATA to shard this dataset. You can do this by creating a new `tf.data.Options()` object then setting `options.experimental_distribute.auto_shard_policy = AutoShardPolicy.DATA` before applying the options object to the dataset via `dataset.with_options(options)`.
+2022-01-20 22:10:10.035781: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-01-20 22:10:10.065151: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3000000000 Hz
+2022-01-20 22:10:49.473654: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-01-20 22:10:52.991979: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-01-20 22:11:33.045910: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:656] In AUTO-mode, and switching to DATA-based sharding, instead of FILE-based sharding as we cannot find appropriate reader dataset op(s) to shard. Error: Did not find a shardable source, walked to a node which is not a dataset: name: "FlatMapDataset/_9"
+op: "FlatMapDataset"
+input: "PrefetchDataset/_8"
+attr {
+  key: "Targuments"
+  value {
+    list {
+    }
+  }
+}
+attr {
+  key: "f"
+  value {
+    func {
+      name: "__inference_Dataset_flat_map_slice_batch_indices_2336062"
+    }
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: -1
+        }
+      }
+    }
+  }
+}
+attr {
+  key: "output_types"
+  value {
+    list {
+      type: DT_INT64
+    }
+  }
+}
+. Consider either turning off auto-sharding or switching the auto_shard_policy to DATA to shard this dataset. You can do this by creating a new `tf.data.Options()` object then setting `options.experimental_distribute.auto_shard_policy = AutoShardPolicy.DATA` before applying the options object to the dataset via `dataset.with_options(options)`.
+2022-01-21 00:19:20.260046: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:656] In AUTO-mode, and switching to DATA-based sharding, instead of FILE-based sharding as we cannot find appropriate reader dataset op(s) to shard. Error: Did not find a shardable source, walked to a node which is not a dataset: name: "FlatMapDataset/_9"
+op: "FlatMapDataset"
+input: "PrefetchDataset/_8"
+attr {
+  key: "Targuments"
+  value {
+    list {
+    }
+  }
+}
+attr {
+  key: "f"
+  value {
+    func {
+      name: "__inference_Dataset_flat_map_slice_batch_indices_2705819"
+    }
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+        dim {
+          size: -1
+        }
+      }
+    }
+  }
+}
+attr {
+  key: "output_types"
+  value {
+    list {
+      type: DT_INT64
+    }
+  }
+}
+. Consider either turning off auto-sharding or switching the auto_shard_policy to DATA to shard this dataset. You can do this by creating a new `tf.data.Options()` object then setting `options.experimental_distribute.auto_shard_policy = AutoShardPolicy.DATA` before applying the options object to the dataset via `dataset.with_options(options)`.
+Traceback (most recent call last):
+  File "multi-output.py", line 638, in <module>
+    train_evaluation = model.evaluate([SD_train_images, SDL_train_images], [SD_train_labels, SDL_train_labels], verbose=0)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py", line 1389, in evaluate
+    tmp_logs = self.test_function(iterator)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 828, in __call__
+    result = self._call(*args, **kwds)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 862, in _call
+    results = self._stateful_fn(*args, **kwds)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2941, in __call__
+    filtered_flat_args) = self._maybe_define_function(args, kwargs)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 3357, in _maybe_define_function
+    return self._define_function_with_shape_relaxation(
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 3279, in _define_function_with_shape_relaxation
+    graph_function = self._create_graph_function(
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 3196, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py", line 990, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 634, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py", line 977, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py:1233 test_function  *
+        return step_function(self, iterator)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py:1224 step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_lib.py:1259 run
+        return self._extended.call_for_each_replica(fn, args=args, kwargs=kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_lib.py:2730 call_for_each_replica
+        return self._call_for_each_replica(fn, args, kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/distribute/mirrored_strategy.py:628 _call_for_each_replica
+        return mirrored_run.call_for_each_replica(
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/distribute/mirrored_run.py:93 call_for_each_replica
+        return _call_for_each_replica(strategy, fn, args, kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/distribute/mirrored_run.py:234 _call_for_each_replica
+        coord.join(threads)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/training/coordinator.py:389 join
+        six.reraise(*self._exc_info_to_raise)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/six.py:703 reraise
+        raise value
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/training/coordinator.py:297 stop_on_exception
+        yield
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/distribute/mirrored_run.py:323 run
+        self.main_result = self.main_fn(*self.main_args, **self.main_kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py:1217 run_step  **
+        outputs = model.test_step(data)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py:1185 test_step
+        self.compiled_loss(
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/engine/compile_utils.py:203 __call__
+        loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/losses.py:152 __call__
+        losses = call_fn(y_true, y_pred)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/losses.py:256 call  **
+        return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/util/dispatch.py:201 wrapper
+        return target(*args, **kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/losses.py:1537 categorical_crossentropy
+        return K.categorical_crossentropy(y_true, y_pred, from_logits=from_logits)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/util/dispatch.py:201 wrapper
+        return target(*args, **kwargs)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/keras/backend.py:4833 categorical_crossentropy
+        target.shape.assert_is_compatible_with(output.shape)
+    /common/netthinker/ele3/research/lib/python3.8/site-packages/tensorflow/python/framework/tensor_shape.py:1134 assert_is_compatible_with
+        raise ValueError("Shapes %s and %s are incompatible" % (self, other))
+
+    ValueError: Shapes (None, 300) and (None, 120) are incompatible
+

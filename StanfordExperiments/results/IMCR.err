@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "imageCorruption.py", line 34, in <module>
+    PIL.Image.open(str(train_file_paths[0]))
+  File "/common/netthinker/ele3/research/lib/python3.8/site-packages/PIL/__init__.py", line 42, in __getattr__
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+AttributeError: module 'PIL' has no attribute 'Image'

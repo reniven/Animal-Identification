@@ -1,0 +1,170 @@
+COMET INFO: Experiment is live on comet.ml https://www.comet.ml/reniven/stanford-experiments/918e0797eb324ddc9eaa47889baf9de8
+
+2021-11-29 09:16:56.345628: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-11-29 09:17:06.110559: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-11-29 09:17:06.112414: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-11-29 09:17:06.118502: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:5e:00.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-11-29 09:17:06.119987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:d8:00.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-11-29 09:17:06.120014: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-11-29 09:17:06.234938: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2021-11-29 09:17:06.234988: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2021-11-29 09:17:06.331411: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-29 09:17:06.342218: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-29 09:17:06.465202: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-29 09:17:06.495666: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2021-11-29 09:17:06.696691: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2021-11-29 09:17:06.701342: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2021-11-29 09:17:06.715096: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-11-29 09:17:06.916224: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:5e:00.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-11-29 09:17:06.917055: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:d8:00.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-11-29 09:17:06.917089: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-11-29 09:17:06.917111: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2021-11-29 09:17:06.917119: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2021-11-29 09:17:06.917127: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2021-11-29 09:17:06.917134: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2021-11-29 09:17:06.917142: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2021-11-29 09:17:06.917149: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2021-11-29 09:17:06.917157: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2021-11-29 09:17:06.920989: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2021-11-29 09:17:06.921480: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2021-11-29 09:17:09.331408: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-11-29 09:17:09.331625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 
+2021-11-29 09:17:09.332214: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y 
+2021-11-29 09:17:09.332224: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N 
+2021-11-29 09:17:09.339100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30132 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-32GB, pci bus id: 0000:5e:00.0, compute capability: 7.0)
+2021-11-29 09:17:09.344514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 30132 MB memory) -> physical GPU (device: 1, name: Tesla V100-PCIE-32GB, pci bus id: 0000:d8:00.0, compute capability: 7.0)
+2021-11-29 09:17:09.344781: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+COMET WARNING: tensorflow datasets are not currently supported for gradient and activation auto-logging
+2021-11-29 09:17:12.607532: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:656] In AUTO-mode, and switching to DATA-based sharding, instead of FILE-based sharding as we cannot find appropriate reader dataset op(s) to shard. Error: Found an unshardable source dataset: name: "TensorSliceDataset/_1"
+op: "TensorSliceDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_STRING
+    }
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+      }
+    }
+  }
+}
+
+COMET INFO: Ignoring automatic log_parameter('verbose') because 'keras:verbose' is in COMET_LOGGING_PARAMETERS_IGNORE
+2021-11-29 09:17:12.930905: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-11-29 09:17:12.954716: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2500000000 Hz
+2021-11-29 09:17:20.440834: W tensorflow/core/grappler/optimizers/loop_optimizer.cc:906] Skipping loop optimization for Merge node with control input: ResNet-50/Data-Augmentation/data_augmentation/lambda_1/cond/else/_9/ResNet-50/Data-Augmentation/data_augmentation/lambda_1/cond/StatefulPartitionedCall/assert_equal_1/Assert/AssertGuard/branch_executed/_237
+2021-11-29 09:17:21.629772: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2021-11-29 09:17:32.673300: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 394 of 12000
+2021-11-29 09:17:42.661517: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 801 of 12000
+2021-11-29 09:17:52.666770: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 1192 of 12000
+2021-11-29 09:18:02.682073: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 1595 of 12000
+2021-11-29 09:18:12.671327: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 1950 of 12000
+2021-11-29 09:18:22.668176: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 2359 of 12000
+2021-11-29 09:18:32.694902: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 2744 of 12000
+2021-11-29 09:18:42.672001: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 3137 of 12000
+2021-11-29 09:18:52.660397: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 3491 of 12000
+2021-11-29 09:19:02.660069: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 3856 of 12000
+2021-11-29 09:19:12.674790: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 4200 of 12000
+2021-11-29 09:19:22.659761: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 4587 of 12000
+2021-11-29 09:19:32.675985: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 4867 of 12000
+2021-11-29 09:19:42.670080: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 5241 of 12000
+2021-11-29 09:19:52.681189: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 5589 of 12000
+2021-11-29 09:20:02.692435: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 5909 of 12000
+2021-11-29 09:20:12.680481: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 6287 of 12000
+2021-11-29 09:20:22.665207: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 6642 of 12000
+2021-11-29 09:20:32.673258: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 7024 of 12000
+2021-11-29 09:20:42.660931: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 7392 of 12000
+2021-11-29 09:20:52.675079: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 7723 of 12000
+2021-11-29 09:21:02.661016: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 8066 of 12000
+2021-11-29 09:21:12.680480: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 8396 of 12000
+2021-11-29 09:21:22.669405: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 8739 of 12000
+2021-11-29 09:21:32.664788: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 9038 of 12000
+2021-11-29 09:21:42.689896: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 9400 of 12000
+2021-11-29 09:21:52.674242: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 9717 of 12000
+2021-11-29 09:22:02.670626: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 10070 of 12000
+2021-11-29 09:22:12.670448: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 10418 of 12000
+2021-11-29 09:22:22.664765: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 10737 of 12000
+2021-11-29 09:22:32.680421: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 11078 of 12000
+2021-11-29 09:22:42.669876: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 11440 of 12000
+2021-11-29 09:22:52.675047: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 11780 of 12000
+2021-11-29 09:22:58.721152: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+2021-11-29 09:22:58.774718: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2021-11-29 09:23:41.121815: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:656] In AUTO-mode, and switching to DATA-based sharding, instead of FILE-based sharding as we cannot find appropriate reader dataset op(s) to shard. Error: Found an unshardable source dataset: name: "TensorSliceDataset/_1"
+op: "TensorSliceDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_STRING
+    }
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+      }
+    }
+  }
+}
+
+2021-11-29 09:23:42.641119: W tensorflow/core/grappler/optimizers/loop_optimizer.cc:906] Skipping loop optimization for Merge node with control input: ResNet-50/Data-Augmentation/data_augmentation/lambda_1/cond/else/_9/ResNet-50/Data-Augmentation/data_augmentation/lambda_1/cond/StatefulPartitionedCall/assert_equal_1/Assert/AssertGuard/branch_executed/_237
+2021-11-29 12:51:59.286339: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:absl:Found untraced functions such as conv2d_1_layer_call_and_return_conditional_losses, conv2d_1_layer_call_fn, conv2d_2_layer_call_and_return_conditional_losses, conv2d_2_layer_call_fn, conv2d_3_layer_call_and_return_conditional_losses while saving (showing 5 of 265). These functions will not be directly callable after loading.
+WARNING:absl:Found untraced functions such as conv2d_1_layer_call_and_return_conditional_losses, conv2d_1_layer_call_fn, conv2d_2_layer_call_and_return_conditional_losses, conv2d_2_layer_call_fn, conv2d_3_layer_call_and_return_conditional_losses while saving (showing 5 of 265). These functions will not be directly callable after loading.
+COMET INFO: ---------------------------
+COMET INFO: Comet.ml Experiment Summary
+COMET INFO: ---------------------------
+COMET INFO:   Data:
+COMET INFO:     display_summary_level : 1
+COMET INFO:     url                   : https://www.comet.ml/reniven/stanford-experiments/918e0797eb324ddc9eaa47889baf9de8
+COMET INFO:   Metrics [count] (min, max):
+COMET INFO:     batch_categorical_accuracy [5700]          : (0.0, 1.0)
+COMET INFO:     batch_loss [5700]                          : (0.016720978543162346, 6.5863037109375)
+COMET INFO:     categorical_accuracy [300]                 : (0.013703208416700363, 0.97184157371521)
+COMET INFO:     epoch_duration [300]                       : (39.55216436088085, 677.9430405786261)
+COMET INFO:     loss [300]                                 : (0.10080525279045105, 5.236395835876465)
+COMET INFO:     lr [300]                                   : (0.0, 0.009999999776482582)
+COMET INFO:     val_categorical_accuracy [300]             : (0.011194029822945595, 0.4673507511615753)
+COMET INFO:     val_loss [300]                             : (2.976252794265747, 5.2088775634765625)
+COMET INFO:     validate_batch_categorical_accuracy [4200] : (0.0, 0.875)
+COMET INFO:     validate_batch_loss [4200]                 : (0.7371726036071777, 7.000912666320801)
+COMET INFO:   Others:
+COMET INFO:     trainable_params : 36338232
+COMET INFO:   Parameters:
+COMET INFO:     Optimizer         : SGD
+COMET INFO:     SGD_decay         : 1
+COMET INFO:     SGD_learning_rate : 0.01
+COMET INFO:     SGD_momentum      : 0.9
+COMET INFO:     SGD_name          : SGD
+COMET INFO:     SGD_nesterov      : 1
+COMET INFO:     epochs            : 300
+COMET INFO:     steps             : 187
+COMET INFO:   Uploads:
+COMET INFO:     environment details : 1
+COMET INFO:     filename            : 1
+COMET INFO:     installed packages  : 1
+COMET INFO:     model graph         : 1
+COMET INFO:     source_code         : 1 (18.04 KB)
+COMET INFO: ---------------------------
+COMET INFO: Uploading metrics, params, and assets to Comet before program termination (may take several seconds)
+COMET INFO: The Python SDK has 3600 seconds to finish before aborting...
+COMET INFO: Uploading 1 metrics, params and output messages

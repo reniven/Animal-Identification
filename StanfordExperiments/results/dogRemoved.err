@@ -1,0 +1,88 @@
+COMET INFO: Experiment is live on comet.ml https://www.comet.ml/reniven/stanford-experiments/ab7e62c9d25c4c6abad667034bf419cc
+
+2022-01-27 19:42:59.182044: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-27 19:43:31.575868: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-01-27 19:43:31.577634: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-01-27 19:43:31.583816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:5e:00.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-01-27 19:43:31.584128: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-27 19:43:32.122858: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-01-27 19:43:32.122927: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-01-27 19:43:32.326708: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-01-27 19:43:32.418793: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-01-27 19:43:33.184683: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-01-27 19:43:33.295387: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-01-27 19:43:34.016627: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-01-27 19:43:34.019280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-01-27 19:43:34.030584: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-27 19:43:34.035748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:5e:00.0 name: Tesla V100-PCIE-32GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 31.75GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-01-27 19:43:34.035784: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-27 19:43:34.035800: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-01-27 19:43:34.035809: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-01-27 19:43:34.035817: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-01-27 19:43:34.035825: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-01-27 19:43:34.035833: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-01-27 19:43:34.035841: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-01-27 19:43:34.035849: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-01-27 19:43:34.037399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-01-27 19:43:34.038360: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-01-27 19:43:38.709622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-01-27 19:43:38.709656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2022-01-27 19:43:38.710001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2022-01-27 19:43:38.714352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30132 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-32GB, pci bus id: 0000:5e:00.0, compute capability: 7.0)
+2022-01-27 19:43:38.717418: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+COMET WARNING: tensorflow datasets are not currently supported for gradient and activation auto-logging
+2022-01-27 19:44:00.824353: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:656] In AUTO-mode, and switching to DATA-based sharding, instead of FILE-based sharding as we cannot find appropriate reader dataset op(s) to shard. Error: Found an unshardable source dataset: name: "TensorSliceDataset/_1"
+op: "TensorSliceDataset"
+input: "Placeholder/_0"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_STRING
+    }
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+      }
+    }
+  }
+}
+
+COMET INFO: Ignoring automatic log_parameter('verbose') because 'keras:verbose' is in COMET_LOGGING_PARAMETERS_IGNORE
+2022-01-27 19:44:01.110944: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-01-27 19:44:01.131290: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2500000000 Hz
+2022-01-27 19:44:04.807438: W tensorflow/core/grappler/optimizers/loop_optimizer.cc:906] Skipping loop optimization for Merge node with control input: ResNet-50/Data-Augmentation/data_augmentation/lambda_1/cond/else/_9/ResNet-50/Data-Augmentation/data_augmentation/lambda_1/cond/StatefulPartitionedCall/assert_equal_1/Assert/AssertGuard/branch_executed/_123
+2022-01-27 19:44:05.413548: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-01-27 19:44:17.744691: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 460 of 10000
+2022-01-27 19:44:27.745904: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 924 of 10000
+2022-01-27 19:44:37.743691: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 1384 of 10000
+2022-01-27 19:44:47.756264: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 1899 of 10000
+2022-01-27 19:44:57.745054: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 2399 of 10000
+2022-01-27 19:45:07.747841: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 2858 of 10000
+2022-01-27 19:45:17.764158: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 3310 of 10000
+2022-01-27 19:45:27.762614: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 3728 of 10000
+2022-01-27 19:45:37.745612: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 4193 of 10000
+2022-01-27 19:45:47.752972: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 4641 of 10000
+2022-01-27 19:45:57.755669: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 5057 of 10000
+2022-01-27 19:46:07.761934: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 5489 of 10000
+2022-01-27 19:46:17.756712: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 5917 of 10000
+2022-01-27 19:46:27.770922: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 6451 of 10000
+2022-01-27 19:46:37.754129: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 7032 of 10000
+2022-01-27 19:46:47.774606: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 7631 of 10000
+2022-01-27 19:46:57.747992: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 8171 of 10000
+2022-01-27 19:47:07.755083: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 8715 of 10000
+2022-01-27 19:47:17.768486: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 9211 of 10000
+2022-01-27 19:47:27.799370: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:177] Filling up shuffle buffer (this may take a while): 9732 of 10000
+2022-01-27 19:47:33.200738: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:230] Shuffle buffer filled.
+2022-01-27 19:47:35.697682: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+/var/spool/slurmd/job40251749/slurm_script: line 19: 1187032 Killed                  python -u $@
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=40251749.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
